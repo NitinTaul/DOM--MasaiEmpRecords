@@ -1,0 +1,49 @@
+
+h1{
+    text-align: center;
+    color:#2A5E98;
+    text-decoration: underline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body>div{
+    margin-top: 60px;
+    display: flex;
+    justify-content:space-around;
+}
+form{
+    width: 25%;
+    padding: 15px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1),
+          0px 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+form> input[type="text"],form> input[type="number"],form> select{
+    width: 100%;
+    padding: 6px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+form>input[type="submit"] {
+    color: white;
+    background-color: #2A5E98;
+    width: 100%;
+    padding: 6px 10px;
+    border-radius: 20px;
+}
+#table-container{
+    width: 60%;
+
+    box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1),
+          0px 2px 4px -1px rgba(0, 0, 0, 0.06);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#table-container>thead{
+    height: 25px;
+    font-weight: 900;
+    background-color: #2A5E98;
+    color: white;
+    padding: 10px 10px;}
